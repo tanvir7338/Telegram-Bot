@@ -6,7 +6,7 @@ import requests
 # Movie and Series Recommendation Function
 def get_recommendation(query):
     # Example API for movie info (replace with your source)
-    api_url =https://m.ca7i.com/q={query}"  # Replace with a real API
+    api_url =https://m.ca7i.com/ https://www.mxplayer.in/q={query}"  # Replace with a real API
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
